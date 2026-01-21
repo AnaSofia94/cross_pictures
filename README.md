@@ -67,17 +67,16 @@ Example response:
 
 ### Inference
 
-```md
 ### POST /infer
 
 Accepts an image file and returns the top-K predictions.
 
 Example request:
-
+```bash 
 curl -X POST http://127.0.0.1:8000/infer \
   -F "image=@cat.jpg"
 ```
-
+    
 Example response
 
 ```json
